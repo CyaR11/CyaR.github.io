@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de diferentes tipos de balones deportivos">
+    <title>Galería de Balones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005fa3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .gallery-item h3 {
+            margin: 10px 0;
+            color: #0077cc;
+        }
+        .gallery-item p {
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0077cc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Balones Deportivos</h1>
+        <p>Explora diferentes tipos de balones utilizados en deportes alrededor del mundo.</p>
+    </header>
+
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="crear.html">Como crear un balón</a>
+        <a href="historia.html">Historia</a>
+        <a href="galeria.html">Galeria</a>
+    </nav>
+
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="imag/futbol.jpg" alt="Balón de Fútbol">
+                <h3>Balón de Fútbol</h3>
+                <p>El balón de fútbol es esférico y está diseñado para ofrecer un buen control y precisión en el juego.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/baloncesto.jpg" alt="Balón de Baloncesto">
+                <h3>Balón de Baloncesto</h3>
+                <p>Este balón es más grande y tiene un diseño rugoso para proporcionar mejor agarre durante el juego.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/volei.jpg" alt="Balón de Voleibol">
+                <h3>Balón de Voleibol</h3>
+                <p>El balón de voleibol es ligero y tiene una superficie lisa para facilitar los pases y remates.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/rugby.jpg" alt="Balón de Rugby">
+                <h3>Balón de Rugby</h3>
+                <p>Este balón tiene forma ovalada y está diseñado para los lanzamientos y golpes específicos del rugby.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/tenis.jpg" alt="Balón de Tenis">
+                <h3>Pelota de Tenis</h3>
+                <p>Las pelotas de tenis son pequeñas, ligeras y tienen una capa de fieltro para controlar su rebote.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imag/water.jpg" alt="Balón de Waterpolo">
+                <h3>Balón de Waterpolo</h3>
+                <p>El balón de waterpolo es impermeable y tiene una superficie texturizada para facilitar el agarre en el agua.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
